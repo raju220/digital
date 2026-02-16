@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard | Digital Admin</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <div class="brand">⚡ Digital Admin</div>
+      <button class="nav-btn">📊 Overview</button>
+      <button class="nav-btn">👥 Users</button>
+      <button class="nav-btn">📦 Orders</button>
+      <button class="nav-btn">⚙️ Settings</button>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <h1 style="margin:0">Hello, <span id="user-name">Admin</span> 👋</h1>
+          <p class="small">Here is your modern admin dashboard snapshot.</p>
+        </div>
+        <button id="logout" style="max-width:130px">Logout</button>
+      </header>
+
+      <section class="card-grid">
+        <article class="card">
+          <h3>Total Users</h3>
+          <div class="metric">12,480</div>
+          <div class="small">+8.2% this month</div>
+        </article>
+        <article class="card">
+          <h3>Revenue</h3>
+          <div class="metric">₹4.7L</div>
+          <div class="small">+11.4% this month</div>
+        </article>
+        <article class="card">
+          <h3>New Orders</h3>
+          <div class="metric">936</div>
+          <div class="small">+3.1% this week</div>
+        </article>
+        <article class="card">
+          <h3>Server Uptime</h3>
+          <div class="metric">99.98%</div>
+          <div class="small">All systems operational</div>
+        </article>
+      </section>
+
+      <section class="chart-placeholder">
+        <strong>Analytics Panel</strong>
+        <p class="small">A clean area for adding charts, reports, and activity feeds.</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="auth.js"></script>
+</body>
+</html>
