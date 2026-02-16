@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | Digital Admin</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Welcome Back</h1>
+    <p class="lead">Login and continue to your admin dashboard.</p>
+
+    <form id="login-form">
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="name@email.com" required />
+
+      <label for="password">Password</label>
+      <input id="password" type="password" placeholder="••••••••" required />
+
+      <button type="submit">Login</button>
+      <div id="login-message" class="message"></div>
+    </form>
+
+    <div class="inline-link">
+      New user? <a href="register.html">Create an account</a>
+    </div>
+  </main>
+
+  <script src="auth.js"></script>
+</body>
+</html>

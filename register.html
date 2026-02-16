@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register | Digital Admin</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Create Account</h1>
+    <p class="lead">Register to access the modern admin dashboard.</p>
+
+    <form id="register-form">
+      <label for="name">Name</label>
+      <input id="name" type="text" placeholder="Your name" required />
+
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="name@email.com" required />
+
+      <label for="password">Password</label>
+      <input id="password" type="password" placeholder="••••••••" required />
+
+      <button type="submit">Register</button>
+      <div id="register-message" class="message"></div>
+    </form>
+
+    <div class="inline-link">
+      Already have an account? <a href="login.html">Login</a>
+    </div>
+  </main>
+
+  <script src="auth.js"></script>
+</body>
+</html>
